@@ -4,7 +4,7 @@
 
 ## 🎥 Demo Video
 
-[![OM-84 Flex PCB Demo](https://img.youtube.com/vi/AUu1BD4b1K8/maxresdefault.jpg)](https://youtu.be/AUu1BD4b1K8)
+[![OM-84 Flex PCB Demo](https://img.youtube.com/vi/RykH0IlZ8lg/maxresdefault.jpg)](https://youtube.com/shorts/RykH0IlZ8lg)
 
 This project is an effort to reproduce the strumplate for the Suzuki Omnichord. It started with the OM-84 because that's what we had on hand, and now also covers the OM-27.
 
@@ -47,6 +47,11 @@ There are now SCAD and STL files in progress for both models. The curves aren't 
 - Getting the SCAD/STL curves dialed in for an accurate fit
 - Measurements and dimensions of other models (e.g. OM-36)
 - High-res photos of working and failed strumplates, all models
+
+### To-Do
+- Tighten up gold teeth pitch, insertion errors sometimes?
+- Perfect bottom curves of plates in SCAD
+- Build guide, compare conductive layer materials
 
 Feel free to open issues or pull requests if you want to contribute.
 

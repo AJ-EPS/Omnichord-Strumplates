@@ -37,7 +37,7 @@ edge_right_long  = 139;  // length of the long right edge, mm
 edge_top_short   = 62;   // length of the short top edge, mm (straight-line/chord distance
                           // between TL and TR -- the S-curve deviates from this)
 edge_bottom_short = 62;  // length of the short bottom edge, mm (straight)
-corner_radius     = 1.5; // small rounding at all four corners (just enough to not be knife-sharp)
+corner_radius     = 1.75; // small rounding at all four corners (just enough to not be knife-sharp)
 
 // --- S-curve control points (independent left/right lobes) ---
 // The curve is a cubic Bezier from TL to TR:
@@ -56,10 +56,10 @@ corner_radius     = 1.5; // small rounding at all four corners (just enough to n
 // interact with each other, so there's no single exact conversion
 // factor when they're independent -- nudge the numbers and re-render
 // to dial in the look, rather than solving for an exact target).
-scurve_t1          = 0.25;  // 0-1, position of the LEFT control point along the chord
-scurve_ctrl1_offset = -6;    // mm, LEFT lobe control offset (+ = bulges out, - = dips in)
-scurve_t2          = 0.67;  // 0-1, position of the RIGHT control point along the chord
-scurve_ctrl2_offset = 3;  // mm, RIGHT lobe control offset (+ = bulges out, - = dips in)
+scurve_t1          = 0.63;  // 0-1, position of the LEFT control point along the chord
+scurve_ctrl1_offset = -4.5;    // mm, LEFT lobe control offset (+ = bulges out, - = dips in)
+scurve_t2          = 0.33;  // 0-1, position of the RIGHT control point along the chord
+scurve_ctrl2_offset = 0.5;  // mm, RIGHT lobe control offset (+ = bulges out, - = dips in)
 scurve_resolution   = 40;   // number of segments used to sample the curve (higher = smoother)
 
 // --- Derived corner geometry (do not edit) ---
